@@ -1,0 +1,17 @@
+{
+  "name": "Pastie",
+  "version": "0.1",
+  "description": "Create a code paste on http://pastie.org",
+  "icons": {
+    "128": "pastie.gif"
+  },
+  "browser_action": {
+    "default_icon": "pastie.gif",
+    "default_title": "Post to Pastie",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://pastie.org/"
+  ]
+}
+
